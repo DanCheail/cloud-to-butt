@@ -54,8 +54,8 @@ function handleText(textNode)
     v = v.replace(/\bElectric\b/g, "Atomic");
     v = v.replace(/\belectric\b/g, "atomic");
 
-    v = v.replace(/\bSenator\b/g, "Elf-lord");
-    v = v.replace(/\bsenator\b/g, "Elf-lord");
+    v = v.replace(/\bSenator/g, "Elf-lord");
+    v = v.replace(/\bsenator/g, "Elf-lord");
 
     v = v.replace(/\bCar\b/g, "Cat");
     v = v.replace(/\bcar\b/g, "cat");
